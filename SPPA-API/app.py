@@ -36,6 +36,6 @@ def display_prediction():
     result = {'prediction': prediction.tolist()}
 
     return jsonify(result)
-
+    
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
